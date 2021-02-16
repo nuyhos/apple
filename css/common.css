@@ -1,0 +1,46 @@
+/* Font Family */
+
+@font-face {
+   font-family:'SF Pro KR';
+   src: url(../font/SFProKRDisplay_regular.woff2) format('woff2');
+}
+
+@font-face {
+   font-family:'SF Pro EN';
+   src: url(../font/sf-pro-text_regular.woff2) format('woff2');
+}
+
+
+
+* {margin:0; padding:0; box-sizing:border-box;}
+ul {list-style:none;}
+a {text-decoration:none;}
+
+body {font-family:'SF Pro KR'; font-size: 14px; line-height:1.5; font-weight:400; letter-spacing:-0.5px; color:rgb(17, 17, 19); -webkit-font-smoothing:antialiased;}
+
+div, ul, li {background-size:cover; background-position:center; list-style: none;}
+
+button {font-family:'SF Pro KR'}
+
+button:hover {cursor:pointer;}
+
+h1 {font-family:'SF Pro EN'; font-size: 56px; line-height:1.5; font-weight:900;  letter-spacing: normal;color:rgb(17, 17, 19);}
+
+h2 {font-family:'SF Pro KR'; font-size: 28px; line-height:1.5; font-weight:700; letter-spacing: normal; color:rgb(17, 17, 19);}
+
+h3 {font-family:'SF Pro KR'; font-size: 17px; line-height:1.5; font-weight:400; letter-spacing: normal; color:rgb(17, 17, 19);}
+
+h4 
+
+h5 
+
+h6 
+
+p {font-family:'SF Pro KR'; font-size: 14px; line-height:1.5; font-weight:400; letter-spacing: normal;color:rgb(17, 17, 19);}
+
+/* Color Style */
+.c_black {color:rgb(34, 34, 34);}
+.c_gray {color:rgb(134, 134, 139);}
+.c_white {color:rgb(245, 245, 247);}
+.c_point_bgblack {color:rgb(41, 151, 255);}
+.c_point_bgwhite {color:rgb(0, 102, 204);}
