@@ -356,7 +356,7 @@
    .hero_price_info {
       margin: 13.6px 0 0 0;
    }
-
+   
    .hero_link_whitebg {
       margin: 14px 0 0 0;
    }
@@ -518,10 +518,13 @@
    }
 
    .hero_price_info {
+      margin: 13.6px auto 0;
       font-size: 14px;
       line-height: 22px;
-      margin: 13.6px auto 0;
-      width: 140px;
+   }
+
+   .hero_price_info span {
+      display: block;
    }
 
    .hero_link_whitebg {
