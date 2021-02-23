@@ -209,6 +209,9 @@ footer {
       padding: 6px 0;
    }
 
+   .footer_local {
+      margin: 0 0 12px 0;
+   }
    .footer_legal div {
       display: block;
    }
@@ -217,7 +220,8 @@ footer {
       font-size: 12px;
       line-height: 16px;
       color: rgb(134,134,139);
-      margin: 0 0 10px 0;}
+      margin: 0 0 8px 0;
+   }
    
    .footer_address span:nth-child(1) {
       display: block;
