@@ -40,8 +40,8 @@
       <nav class="gnb_m" id="gnb_m_wrap">
          <ul class="gnb_m_menu">
             <li class="gnb_m_menubtn">
-               <figure onclick="menuOpen()" id="gnb_m_menuopen"></figure>
-               <figure onclick="menuClose()" id="gnb_m_menuclose"></figure>
+               <figure onclick="menuOpen();" id="gnb_m_menuopen"></figure>
+               <figure onclick="menuClose();" id="gnb_m_menuclose"></figure>
             </li>
             <li class="gnb_m_logo"><a href="#"></a></li>
             <li class="gnb_m_bag" id="gnb_m_bag"><a href="#"></a></li>
@@ -324,9 +324,7 @@
 
          document.getElementById("gnb_m_menuclose").style = "display: block;";
 
-         document.getElementById("gnb_m_bag").style = "opacity: 0;";
-
-         // document.getElementById("gnb_m_bag").style = "visibility: hidden;";
+         document.getElementById("gnb_m_bag").style = "visibility: hidden;";
 
       }
 

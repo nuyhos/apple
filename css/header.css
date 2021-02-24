@@ -121,13 +121,14 @@ header {
       background-repeat: no-repeat;
       background-position: center center;
       cursor: pointer;
+      display: none;
    }
 
    .gnb_m_logo a {
       display: block;
       width: 48px;
       height: 48px;
-      background: url(../img/gnb_apple.svg) no-repeat;
+      background-image: url(../img/gnb_apple.svg);background-repeat: no-repeat;
       background-position: center center;
       background-size: 48px 48px;
    }
@@ -136,7 +137,8 @@ header {
       display: block;
       width: 48px;
       height: 48px;
-      background: url(../img/gnb_bag.svg) no-repeat;
+      background: url(../img/gnb_bag.svg);
+      background-repeat: no-repeat;
       background-position: center center;
    }
 
